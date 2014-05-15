@@ -1,4 +1,4 @@
 Graunt
 ======
 
-statistical application
+Statistical program

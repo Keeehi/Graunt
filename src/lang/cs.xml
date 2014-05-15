@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <language>Češina</language>
+  <data>
+    <section name="initial">
+      <string name="labelStart" value="Začít" />
+      <string name="labelRecent" value="Nedávno otevřené" />
+      <string name="buttonOpen" value="Otevřít" />
+      <string name="buttonImport" value="Nový" />
+    </section>
+    <section name="import">
+      <string name="title" value="Import" />
+      <string name="fileFormat" value="Typ souboru" />
+      <string name="recordSeparator" value="Oddělovač záznamů" />
+      <string name="fieldSeparator" value="Oddělovač buněk" />
+      <string name="textDelimiter" value="Oddělovač textu" />
+      <string name="commaSeparatedValues" value="Hodnoty oddělené čárkami" />
+      <string name="semicolonSeparatedValues" value="Hodnoty oddělené středníkem" />
+      <string name="tabSeparatedValues" value="Hodnoty oddělené tabulátorem" />
+      <string name="customFormat" value="Vlastní formát" />
+      <string name="newline" value="Nový řádek" />
+      <string name="comma" value="Čárka (,)" />
+      <string name="semicolon" value="Středník (;)" />
+      <string name="tab" value="Tabulátor" />
+      <string name="doubleQuote" value='Uvozovka (")' />
+      <string name="none" value="Nic" />
+      <string name="hasHeader" value="První řádek obsahuje jména sloupců" />
+      <string name="encoding" value="Kódování souboru" />
+      <string name="partial" value="Upozornění: Toto je náhled prvních 10ti záznamů. Zbytek už nemusí být čitelný." />
+      <string name="next" value="Další" />
+      <string name="specialCharactersHint" value='Pro spciální znaky použijte : nový řádek "\n", tabulátor "\t"' />
+      <string name="parseError" value="Nepovedlo se analyzovat data" />
+      <string name="reason" value="Důvod" />
+      <string name="manyColumnsError" value="Mnoho sloupců k zobrazení" />
+      <string name="openDialogTitle" value="Import" />
+    </section>
+    <section name="parser">
+      <string name="column" value="Column" />
+      <string name="emptyCharactersError" value="Oddělovač záznamů a Oddělovač buněk nemohou být prázdné" />
+      <string name="sameCharacterError" value="Oddělovač záznamů, Oddělovač buněk and Oddělovač textu musejí být rozdílné znaky" />
+      <string name="emptyHeaderError" value="Jméno sloupce nesmí být prázdné" />
+      <string name="dataFormatError" value="Vybraný formát souboru neodpovídá jeho obsahu" />
+      <string name="columnNameError" value="Jména sloupců musí být různá" />
+    </section>
+    <section name="rectangular">
+      <string name="title" value="Import" />
+      <string name="header" value="Záznamy nemají obdélníkový tvar." />
+      <string name="validColumn" value="Poslední sloupec" />
+      <string name="longer" value="Delší záznamy" />
+      <string name="shorter" value="Kratší záznamy" />
+      <string name="crop" value="oříznout" />
+      <string name="append" value="přidat prázdné buňky" />
+      <string name="ignore" value="neimportovat" />
+      <string name="next" value="Další" />
+    </section>
+    <section name="columnSelect">
+      <string name="title" value="Import" />
+      <string name="header" value="Vyberte sloupce, které mají být importovány." />
+      <string name="import" value="Importovat" />
+      <string name="ignore" value="Neimportovat" />
+      <string name="next" value="Další" />
+    </section>
+    <section name="dataType">
+      <string name="title" value="Import" />
+      <string name="column" value="Sloupec" />
+      <string name="type" value="Typ" />
+      <string name="badValue" value="Nevalidní hodnoty" />
+      <string name="numeric" value="Celé číslo" />
+      <string name="real" value="Reálné číslo" />
+      <string name="text" value="Text" />
+      <string name="empty" value="Použít prázdnou hodnotu" />
+      <string name="median" value="Použít medián" />
+      <string name="mean" value="Použít průměr" />
+      <string name="skip" value="Přeskočit celý záznam" />
+      <string name="custom" value="Použít" />
+      <string name="next" value="Další" />
+    </section>
+    <section name="result">
+      <string name="title" value="Výsledky" />
+      <string name="save" value="Uložit..." />
+      <string name="clear" value="Vymazat" />
+      <string name="hide" value="Schovat" />
+      <string name="saveDialog" value="Uložit jako" />
+    </section>
+    <section name="settings">
+      <string name="title" value="Nastavení" />
+      <string name="settings" value="Nastavení" />
+      <string name="language" value="Jazyk" />
+      <string name="save" value="Uložit" />
+      <string name="cancel" value="Storno" />
+    </section>
+    <section name="about">
+      <string name="title" value="O programu" />
+      <string name="author" value="Autor" />
+      <string name="version" value="Verze" />
+      <string name="license" value="Licence" />
+      <string name="close" value="Zavřít" />
+    </section>
+    <section name="mean">
+      <string name="title" value="Aritmetický průměrr" />
+      <string name="method" value="Aritmetický průměr" />
+      <string name="header" value="Vyberte sloupce, ze kterých se bude počítat průměr." />
+      <string name="possible" value="Možné sloupce" />
+      <string name="selected" value="Počítat z" />
+      <string name="calculate" value="Spočítat" />
+    </section>
+    <section name="median">
+      <string name="title" value="Medián" />
+      <string name="method" value="Medián" />
+      <string name="header" value="Vyberte sloupce, ze kterých se bude počítat medián." />
+      <string name="possible" value="Možné sloupce" />
+      <string name="selected" value="Počítat z" />
+      <string name="calculate" value="Spočítat" />
+    </section>
+    <section name="variance">
+      <string name="title" value="Rozptyl" />
+      <string name="method" value="Rozptyl" />
+      <string name="header" value="Vyberte sloupce, ze kterých se bude počítat rozptyl." />
+      <string name="possible" value="Možné sloupce" />
+      <string name="selected" value="Počítat z" />
+      <string name="calculate" value="Spočítat" />
+    </section>
+    <section name="standardDeviation">
+      <string name="title" value="Směrodatná odchylka" />
+      <string name="method" value="Směrodatná odchylka" />
+      <string name="header" value="Vyberte sloupce, ze kterých se bude počítat směrodatná odchylka." />
+      <string name="possible" value="Možné sloupce" />
+      <string name="selected" value="Počítat z" />
+      <string name="calculate" value="Spočítat" />
+    </section>
+    <section name="error">
+      <string name="saveErrorTitle" value="Problém při ukládání" />
+      <string name="saveErrorMessage" value="Není možné psát do souboru" />
+      <string name="saveNothinTitle" value="Upozornění" />
+      <string name="saveNothinMessage" value="Nejsou dostupná žádná data pro uložení." />
+      <string name="openErrorTitle" value="Problém při otevírání" />
+      <string name="openErrorMessage" value="Není možné číst ze suboru" />
+      <string name="saveConfirmTitle" value="Potvrzení" />
+      <string name="saveConfirmMessage" value="Uložit změny provedené v souboru" />
+      <string name="settingsSavedTitle" value="Upozornění" />
+      <string name="settingsSavedMessage" value="Nastavení bylo uloženy. Změny se projeví při příštím spuštění." />
+      <string name="analyseNothingTitle" value="Chybějící data" />
+      <string name="analyseNothingMessage" value="Nejsou dostupná žádná data pro analýzu! Začněte otevřením souboru s daty." />
+      <string name="badFormatTitle" value="Špatná hodnota" />
+      <string name="badFormatMessage" value="Vyplněný obsah buňky má špatný formát. Chcete smazat obsah buňky?" />
+    </section>
+    <section name="menu">
+      <string name="file" value="Soubor" />
+      <string name="open" value="Otevřít" />
+      <string name="openFile" value="Soubor..." />
+      <string name="save" value="Uložit" />
+      <string name="saveAs" value="Uložit jako..." />
+      <string name="import" value="Importovat..." />
+      <string name="analyse" value="Analýza" />
+      <string name="results" value="Výsledky" />
+      <string name="settings" value="Nastavení" />
+      <string name="help" value="Nápověda" />
+      <string name="userGuide" value="Uživatelská příručka [online]" />
+      <string name="about" value="O programu" />
+    </section>
+    <section name="analyse">
+      <string name="mean" value="Aritmetický průměr" />
+      <string name="median" value="Medián" />
+      <string name="variance" value="Rozptyl" />
+      <string name="standardDeviation" value="Směrodatná odchylka" />
+    </section>
+    <section name="main">
+      <string name="openDialog" value="Otevřít" />
+      <string name="saveDialog" value="Uložit jako" />
+    </section>
+  </data>
+</root>

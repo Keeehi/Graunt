@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <language>English</language>
+  <data>
+    <section name="initial">
+      <string name="labelStart" value="Start" />
+      <string name="labelRecent" value="Recently open" />
+      <string name="buttonOpen" value="Open" />
+      <string name="buttonImport" value="Import" />
+    </section>
+    <section name="import">
+      <string name="title" value="Import" />
+      <string name="fileFormat" value="File format" />
+      <string name="recordSeparator" value="Record separator" />
+      <string name="fieldSeparator" value="Field separator" />
+      <string name="textDelimiter" value="Text delimiter" />
+      <string name="commaSeparatedValues" value="Comma separated values" />
+      <string name="semicolonSeparatedValues" value="Semicolon separated values" />
+      <string name="tabSeparatedValues" value="Tab separated values" />
+      <string name="customFormat" value="Custom format" />
+      <string name="newline" value="New line" />
+      <string name="comma" value="Comma (,)" />
+      <string name="semicolon" value="Semicolon (;)" />
+      <string name="tab" value="Tab" />
+      <string name="doubleQuote" value='Double quote (")' />
+      <string name="none" value="None" />
+      <string name="hasHeader" value="First row contains names of columns" />
+      <string name="encoding" value="File encoding" />
+      <string name="partial" value="Notice: This is preview of the first 10 records. The rest does not have to be readable." />
+      <string name="next" value="Next" />
+      <string name="specialCharactersHint" value='For special character use this squence: newline "\n", tab "\t"' />
+      <string name="parseError" value="Unable to parse data" />
+      <string name="reason" value="Reason" />
+      <string name="manyColumnsError" value="Too many columns to display" />
+      <string name="openDialogTitle" value="Import" />
+    </section>
+    <section name="parser">
+      <string name="column" value="Column" />
+      <string name="emptyCharactersError" value="Record separator and Field separator can not be empty" />
+      <string name="sameCharacterError" value="Record separator, Field separator and Text delimiter has to be different characters" />
+      <string name="emptyHeaderError" value="Header name can not be empty" />
+      <string name="dataFormatError" value="Selected file format is not same as the format of data" />
+      <string name="columnNameError" value="Columns has to have different names" />
+    </section>
+    <section name="rectangular">
+      <string name="title" value="Import" />
+      <string name="header" value="Records are not in rectangular shape." />
+      <string name="validColumn" value="Last valid column" />
+      <string name="longer" value="Longer records" />
+      <string name="shorter" value="Shorter records" />
+      <string name="crop" value="crop" />
+      <string name="append" value="append empty cells" />
+      <string name="ignore" value="do not import" />
+      <string name="next" value="Next" />
+    </section>
+    <section name="columnSelect">
+      <string name="title" value="Import" />
+      <string name="header" value="Select columns which should be imported." />
+      <string name="import" value="Import" />
+      <string name="ignore" value="Do not import" />
+      <string name="next" value="Next" />
+    </section>
+    <section name="dataType">
+      <string name="title" value="Import" />
+      <string name="column" value="Column" />
+      <string name="type" value="Type" />
+      <string name="badValue" value="Bad value treatment" />
+      <string name="numeric" value="Numeric" />
+      <string name="real" value="Real" />
+      <string name="text" value="Text" />
+      <string name="empty" value="Use empty value" />
+      <string name="median" value="Use median" />
+      <string name="mean" value="Use mean" />
+      <string name="skip" value="Skip whole record" />
+      <string name="custom" value="Use" />
+      <string name="next" value="Next" />
+    </section>
+    <section name="result">
+      <string name="title" value="Result" />
+      <string name="save" value="Save..." />
+      <string name="clear" value="Clear" />
+      <string name="hide" value="Hide" />
+      <string name="saveDialog" value="Save as" />
+    </section>
+    <section name="settings">
+      <string name="title" value="Settings" />
+      <string name="settings" value="Settings" />
+      <string name="language" value="Language" />
+      <string name="save" value="Save" />
+      <string name="cancel" value="Cancel" />
+    </section>
+    <section name="about">
+      <string name="title" value="About" />
+      <string name="author" value="Author" />
+      <string name="version" value="Version" />
+      <string name="license" value="License" />
+      <string name="close" value="Close" />
+    </section>
+    <section name="mean">
+      <string name="title" value="Mean" />
+      <string name="method" value="Mean" />
+      <string name="header" value="Select columns from which should be mean calculated." />
+      <string name="possible" value="Possible columns" />
+      <string name="selected" value="Calculate from" />
+      <string name="calculate" value="Calculate" />
+      <string name="dataTypeExceded" value="Error - result is either too small or too big to display" />
+    </section>
+    <section name="median">
+      <string name="title" value="Median" />
+      <string name="method" value="Median" />
+      <string name="header" value="Select columns from which should be median calculated." />
+      <string name="possible" value="Possible columns" />
+      <string name="selected" value="Calculate from" />
+      <string name="calculate" value="Calculate" />
+      <string name="dataTypeExceded" value="Error - result is either too small or too big to display" />
+    </section>
+    <section name="variance">
+      <string name="title" value="Variance" />
+      <string name="method" value="Variance" />
+      <string name="header" value="Select columns from which should be variance calculated." />
+      <string name="possible" value="Possible columns" />
+      <string name="selected" value="Calculate from" />
+      <string name="calculate" value="Calculate" />
+      <string name="dataTypeExceded" value="Error - result is either too small or too big to display" />
+    </section>
+    <section name="standardDeviation">
+      <string name="title" value="Standard deviation" />
+      <string name="method" value="Standard deviation" />
+      <string name="header" value="Select columns from which should be standard deviation calculated." />
+      <string name="possible" value="Possible columns" />
+      <string name="selected" value="Calculate from" />
+      <string name="calculate" value="Calculate" />
+      <string name="dataTypeExceded" value="Error - result is either too small or too big to display" />
+    </section>
+    <section name="error">
+      <string name="saveErrorTitle" value="Saving file error" />
+      <string name="saveErrorMessage" value="Can not write to file" />
+      <string name="saveNothinTitle" value="Notice" />
+      <string name="saveNothinMessage" value="There is nothing to save." />
+      <string name="openErrorTitle" value="Opening file error" />
+      <string name="openErrorMessage" value="Can not open file" />
+      <string name="saveConfirmTitle" value="Confirmation" />
+      <string name="saveConfirmMessage" value="Save changes made in file" />
+      <string name="settingsSavedTitle" value="Info" />
+      <string name="settingsSavedMessage" value="Settings saved. The chnanges will be visible after restart." />
+      <string name="analyseNothingTitle" value="Missing data" />
+      <string name="analyseNothingMessage" value="There is no data to analyse! Start with opening the data file." />
+      <string name="badFormatTitle" value="Bad value" />
+      <string name="badFormatMessage" value="The data you filled are in wrong format. Do you want to clear the cell?" />
+    </section>
+    <section name="menu">
+      <string name="file" value="File" />
+      <string name="open" value="Open" />
+      <string name="openFile" value="File..." />
+      <string name="save" value="Save" />
+      <string name="saveAs" value="Save as..." />
+      <string name="import" value="Import..." />
+      <string name="analyse" value="Analyse" />
+      <string name="results" value="Results" />
+      <string name="settings" value="Settings" />
+      <string name="help" value="Help" />
+      <string name="userGuide" value="User guide [online]" />
+      <string name="about" value="About" />
+    </section>
+    <section name="analyse">
+      <string name="mean" value="Mean" />
+      <string name="median" value="Median" />
+      <string name="variance" value="Variance" />
+      <string name="standardDeviation" value="Standard deviation" />
+    </section>
+    <section name="main">
+      <string name="openDialog" value="Open" />
+      <string name="saveDialog" value="Save as" />
+    </section>
+  </data>
+</root>

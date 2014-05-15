@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="initial.buttonImport" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="initial.buttonOpen" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="initial.labelRecent" xml:space="preserve">
+    <value>Recently open</value>
+  </data>
+  <data name="initial.labelStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="import.commaSeparatedValues" xml:space="preserve">
+    <value>Comma separated values</value>
+  </data>
+  <data name="import.customFormat" xml:space="preserve">
+    <value>Custom format</value>
+  </data>
+  <data name="import.fieldSeparator" xml:space="preserve">
+    <value>Field separator</value>
+  </data>
+  <data name="import.fileFormat" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="import.recordSeparator" xml:space="preserve">
+    <value>Record separator</value>
+  </data>
+  <data name="import.semicolonSeparatedValues" xml:space="preserve">
+    <value>Semicolon separated values</value>
+  </data>
+  <data name="import.tabSeparatedValues" xml:space="preserve">
+    <value>Tab separated values</value>
+  </data>
+  <data name="import.textDelimiter" xml:space="preserve">
+    <value>Text delimiter</value>
+  </data>
+  <data name="import.title" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="import.newline" xml:space="preserve">
+    <value>New line</value>
+  </data>
+  <data name="import.comma" xml:space="preserve">
+    <value>Comma (,)</value>
+  </data>
+  <data name="import.semicolon" xml:space="preserve">
+    <value>Semicolon (;)</value>
+  </data>
+  <data name="import.tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="import.doubleQuote" xml:space="preserve">
+    <value>Double quote (")</value>
+  </data>
+  <data name="import.none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="import.hasHeader" xml:space="preserve">
+    <value>First row contains names of columns</value>
+  </data>
+  <data name="import.encoding" xml:space="preserve">
+    <value>File encoding</value>
+  </data>
+  <data name="import.partial" xml:space="preserve">
+    <value>Notice: This is preview of the first 10 records. The rest does not have to be readable.</value>
+  </data>
+  <data name="import.next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="import.specialCharactersHint" xml:space="preserve">
+    <value>For special character use this squence: newline "\n", tab "\t"</value>
+  </data>
+  <data name="import.parseError" xml:space="preserve">
+    <value>Unable to parse data</value>
+  </data>
+  <data name="import.reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="import.manyColumnsError" xml:space="preserve">
+    <value>Too many columns to display</value>
+  </data>
+  <data name="import.openDialogTitle" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="parser.column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="parser.emptyCharactersError" xml:space="preserve">
+    <value>Record separator and Field separator can not be empty</value>
+  </data>
+  <data name="parser.sameCharacterError" xml:space="preserve">
+    <value>Record separator, Field separator and Text delimiter has to be different characters</value>
+  </data>
+  <data name="parser.emptyHeaderError" xml:space="preserve">
+    <value>Header name can not be empty</value>
+  </data>
+  <data name="parser.dataFormatError" xml:space="preserve">
+    <value>Selected file format is not same as the format of data</value>
+  </data>
+  <data name="parser.columnNameError" xml:space="preserve">
+    <value>Columns has to have different names</value>
+  </data>
+  <data name="rectangular.title" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="rectangular.header" xml:space="preserve">
+    <value>Records are not in rectangular shape.</value>
+  </data>
+  <data name="rectangular.validColumn" xml:space="preserve">
+    <value>Last valid column</value>
+  </data>
+  <data name="rectangular.longer" xml:space="preserve">
+    <value>Longer records</value>
+  </data>
+  <data name="rectangular.shorter" xml:space="preserve">
+    <value>Shorter records</value>
+  </data>
+  <data name="rectangular.crop" xml:space="preserve">
+    <value>crop</value>
+  </data>
+  <data name="rectangular.append" xml:space="preserve">
+    <value>append empty cells</value>
+  </data>
+  <data name="rectangular.ignore" xml:space="preserve">
+    <value>do not import</value>
+  </data>
+  <data name="rectangular.next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="columnSelect.title" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="columnSelect.header" xml:space="preserve">
+    <value>Select columns which should be imported.</value>
+  </data>
+  <data name="columnSelect.import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="columnSelect.ignore" xml:space="preserve">
+    <value>Do not import</value>
+  </data>
+  <data name="columnSelect.next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="dataType.title" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="dataType.column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="dataType.type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="dataType.badValue" xml:space="preserve">
+    <value>Bad value treatment</value>
+  </data>
+  <data name="dataType.numeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="dataType.real" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="dataType.text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="dataType.empty" xml:space="preserve">
+    <value>Use empty value</value>
+  </data>
+  <data name="dataType.median" xml:space="preserve">
+    <value>Use median</value>
+  </data>
+  <data name="dataType.mean" xml:space="preserve">
+    <value>Use mean</value>
+  </data>
+  <data name="dataType.skip" xml:space="preserve">
+    <value>Skip whole record</value>
+  </data>
+  <data name="dataType.custom" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="dataType.next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="result.title" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="result.save" xml:space="preserve">
+    <value>Save...</value>
+  </data>
+  <data name="result.clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="result.hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="result.saveDialog" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="settings.title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settings.settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settings.language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="settings.save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="settings.cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="about.title" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="about.author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="about.version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="about.license" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="about.close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="mean.title" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="mean.method" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="mean.header" xml:space="preserve">
+    <value>Select columns from which should be mean calculated.</value>
+  </data>
+  <data name="mean.possible" xml:space="preserve">
+    <value>Possible columns</value>
+  </data>
+  <data name="mean.selected" xml:space="preserve">
+    <value>Calculate from</value>
+  </data>
+  <data name="mean.calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="median.title" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="median.method" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="median.header" xml:space="preserve">
+    <value>Select columns from which should be median calculated.</value>
+  </data>
+  <data name="median.possible" xml:space="preserve">
+    <value>Possible columns</value>
+  </data>
+  <data name="median.selected" xml:space="preserve">
+    <value>Calculate from</value>
+  </data>
+  <data name="median.calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="variance.title" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="variance.method" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="variance.header" xml:space="preserve">
+    <value>Select columns from which should be variance calculated.</value>
+  </data>
+  <data name="variance.possible" xml:space="preserve">
+    <value>Possible columns</value>
+  </data>
+  <data name="variance.selected" xml:space="preserve">
+    <value>Calculate from</value>
+  </data>
+  <data name="variance.calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="standardDeviation.title" xml:space="preserve">
+    <value>Standard deviation</value>
+  </data>
+  <data name="standardDeviation.method" xml:space="preserve">
+    <value>Standard deviation</value>
+  </data>
+  <data name="standardDeviation.header" xml:space="preserve">
+    <value>Select columns from which should be standard deviation calculated.</value>
+  </data>
+  <data name="standardDeviation.possible" xml:space="preserve">
+    <value>Possible columns</value>
+  </data>
+  <data name="standardDeviation.selected" xml:space="preserve">
+    <value>Calculate from</value>
+  </data>
+  <data name="standardDeviation.calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="error.saveErrorTitle" xml:space="preserve">
+    <value>Saving file error</value>
+  </data>
+  <data name="error.saveErrorMessage" xml:space="preserve">
+    <value>Can not write to file</value>
+  </data>
+  <data name="error.saveNothinTitle" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="error.saveNothinMessage" xml:space="preserve">
+    <value>There is nothing to save.</value>
+  </data>
+  <data name="error.openErrorTitle" xml:space="preserve">
+    <value>Opening file error</value>
+  </data>
+  <data name="error.openErrorMessage" xml:space="preserve">
+    <value>Can not open file</value>
+  </data>
+  <data name="error.saveConfirmTitle" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="error.saveConfirmMessage" xml:space="preserve">
+    <value>Save changes made in file</value>
+  </data>
+  <data name="error.settingsSavedTitle" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="error.settingsSavedMessage" xml:space="preserve">
+    <value>Settings saved. The chnanges will be visible after restart.</value>
+  </data>
+  <data name="error.analyseNothingTitle" xml:space="preserve">
+    <value>Missing data</value>
+  </data>
+  <data name="error.analyseNothingMessage" xml:space="preserve">
+    <value>There is no data to analyse! Start with opening the data file.</value>
+  </data>
+  <data name="error.badFormatTitle" xml:space="preserve">
+    <value>Bad value</value>
+  </data>
+  <data name="error.badFormatMessage" xml:space="preserve">
+    <value>The data you filled are in wrong format. Do you want to clear the cell?</value>
+  </data>
+  <data name="menu.file" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="menu.open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="menu.openFile" xml:space="preserve">
+    <value>File...</value>
+  </data>
+  <data name="menu.save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="menu.saveAs" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="menu.import" xml:space="preserve">
+    <value>Import...</value>
+  </data>
+  <data name="menu.analyse" xml:space="preserve">
+    <value>Analyse</value>
+  </data>
+  <data name="menu.results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="menu.settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="menu.help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menu.userGuide" xml:space="preserve">
+    <value>User guide [online]</value>
+  </data>
+  <data name="menu.about" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="analyse.mean" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="analyse.median" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="analyse.variance" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="analyse.standardDeviation" xml:space="preserve">
+    <value>Standard deviation</value>
+  </data>
+  <data name="main.openDialog" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="main.saveDialog" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="mean.dataTypeExceded" xml:space="preserve">
+    <value>Error - result is either too small or too big to display</value>
+  </data>
+  <data name="median.dataTypeExceded" xml:space="preserve">
+    <value>Error - result is either too small or too big to display</value>
+  </data>
+  <data name="standardDeviation.dataTypeExceded" xml:space="preserve">
+    <value>Error - result is either too small or too big to display</value>
+  </data>
+  <data name="variance.dataTypeExceded" xml:space="preserve">
+    <value>Error - result is either too small or too big to display</value>
+  </data>
+</root>

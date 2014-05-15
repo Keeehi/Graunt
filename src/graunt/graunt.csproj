@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07A7B9EC-919A-4B64-A301-D240CE892608}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>graunt</RootNamespace>
+    <AssemblyName>Graunt</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Honza\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>https://github.com/Keeehi/Graunt</SupportUrl>
+    <ProductName>Graunt</ProductName>
+    <PublisherName>Jan Cejhon</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\graunt.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>graunt.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0A7CB1A006EF033BCFB1BA134F249B6FEE76A4CB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>graunt_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\LanguageDefault.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageDefault.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticalFunctions.cs" />
+    <Compile Include="Windows\AboutWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\AboutWindow.Designer.cs">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CsvImport.cs" />
+    <Compile Include="DataFile.cs" />
+    <Compile Include="EventHandlers.cs" />
+    <Compile Include="GeneralException.cs" />
+    <Compile Include="GrauntSettings.cs" />
+    <Compile Include="Windows\Analysis\BaseAnalysisWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Analysis\VarianceWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Analysis\VarianceWindow.Designer.cs">
+      <DependentUpon>VarianceWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Analysis\StandardDeviationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Analysis\StandardDeviationWindow.Designer.cs">
+      <DependentUpon>StandardDeviationWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Analysis\MedianWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Analysis\MedianWindow.Designer.cs">
+      <DependentUpon>MedianWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ResultWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ResultWindow.Designer.cs">
+      <DependentUpon>ResultWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Analysis\MeanWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Analysis\MeanWindow.Designer.cs">
+      <DependentUpon>MeanWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parser\CsvParser.cs" />
+    <Compile Include="Parser\CsvParserException.cs" />
+    <Compile Include="Parser\CsvParserResult.cs" />
+    <Compile Include="Components\GroupableRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\GroupableRadioButton.Designer.cs">
+      <DependentUpon>GroupableRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ColumnsSelectWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ColumnsSelectWindow.Designer.cs">
+      <DependentUpon>ColumnsSelectWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DataTypeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\DataTypeWindow.Designer.cs">
+      <DependentUpon>DataTypeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ImportCsvWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ImportCsvWindow.Designer.cs">
+      <DependentUpon>ImportCsvWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\InitialWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\InitialWindow.Designer.cs">
+      <DependentUpon>InitialWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="Windows\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\RectangularCorrectionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\RectangularCorrectionWindow.Designer.cs">
+      <DependentUpon>RectangularCorrectionWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SettingsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\SettingsWindow.Designer.cs">
+      <DependentUpon>SettingsWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Windows\AboutWindow.resx">
+      <DependentUpon>AboutWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Analysis\VarianceWindow.resx">
+      <DependentUpon>VarianceWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Analysis\StandardDeviationWindow.resx">
+      <DependentUpon>StandardDeviationWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Analysis\MedianWindow.resx">
+      <DependentUpon>MedianWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Analysis\MeanWindow.resx">
+      <DependentUpon>MeanWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ColumnsSelectWindow.resx">
+      <DependentUpon>ColumnsSelectWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DataTypeWindow.resx">
+      <DependentUpon>DataTypeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ImportCsvWindow.resx">
+      <DependentUpon>ImportCsvWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\InitialWindow.resx">
+      <DependentUpon>InitialWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Windows\RectangularCorrectionWindow.resx">
+      <DependentUpon>RectangularCorrectionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\LanguageDefault.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>LanguageDefault.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ResultWindow.resx">
+      <DependentUpon>ResultWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SettingsWindow.resx">
+      <DependentUpon>SettingsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\graunt.ico" />
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
